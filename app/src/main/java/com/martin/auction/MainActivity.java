@@ -23,8 +23,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private Button loadButton;
     private ImageView image;
-    private EditText edtTxtPrice;
-    private EditText edtTxtDesc;
+    //private EditText edtTxtPrice;
+    //private EditText edtTxtDesc;
     private static final int REQUEST = 1;
 
     @Override
@@ -36,8 +36,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         image = (ImageView) findViewById(R.id.imageView);
         image.setImageResource(R.drawable.aadd);
         loadButton = (Button) findViewById(R.id.button);
-        edtTxtPrice = (EditText) findViewById(R.id.editTextPrice);
-        edtTxtDesc = (EditText) findViewById(R.id.editTextDescription);
+        //edtTxtPrice = (EditText) findViewById(R.id.editTextPrice);
+        //edtTxtDesc = (EditText) findViewById(R.id.editTextDescription);
 
         loadButton.setOnClickListener(this);
     }
