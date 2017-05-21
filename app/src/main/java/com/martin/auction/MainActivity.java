@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.Icon;
 import android.net.Uri;
 import android.provider.MediaStore;
 //import android.support.v7.app.AppCompatActivity;
@@ -32,6 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.main);
 
         image = (ImageView) findViewById(R.id.imageView);
+        image.setImageResource(R.drawable.add);
         loadButton = (Button) findViewById(R.id.button);
         edtTxtPrice = (EditText) findViewById(R.id.editTextPrice);
         edtTxtDesc = (EditText) findViewById(R.id.editTextDescription);
