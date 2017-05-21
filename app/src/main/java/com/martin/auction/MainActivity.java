@@ -70,7 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onActivityResult(requestCode, resultCode, data);
     }
 
-    public void onClickEdtBox(View v) {
+    /* public void onClickEdtBox(View v) {
         if (edtTxtPrice.getText().toString().equals("Ціна")) {
             edtTxtPrice.setText("");
             edtTxtPrice.setTextColor(Color.BLACK);
@@ -81,5 +81,5 @@ public class MainActivity extends Activity implements View.OnClickListener {
             edtTxtDesc.setText("");
             edtTxtDesc.setTextColor(Color.BLACK);
         }
-    }
+    } */
 }
