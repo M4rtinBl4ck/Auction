@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.main);
 
         image = (ImageView) findViewById(R.id.imageView);
-        image.setImageResource(R.drawable.add);
+        image.setImageResource(R.drawable.aadd);
         loadButton = (Button) findViewById(R.id.button);
         edtTxtPrice = (EditText) findViewById(R.id.editTextPrice);
         edtTxtDesc = (EditText) findViewById(R.id.editTextDescription);

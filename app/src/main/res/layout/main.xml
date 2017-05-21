@@ -55,6 +55,7 @@
         android:hapticFeedbackEnabled="false"
         android:hint="Ціна"
         android:inputType="numberDecimal"
+        android:maxLength="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/button3"
         app:layout_constraintRight_toRightOf="@+id/editTextDescription"
