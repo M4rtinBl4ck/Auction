@@ -77,9 +77,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
     public void onClickEdtDesc(View v) {
-        if (edtTxtPrice.getText().toString().equals("Введіть опис товару")) {
-            edtTxtPrice.setText("");
-            edtTxtPrice.setTextColor(Color.BLACK);
+        if (edtTxtDesc.getText().toString().equals("Введіть опис товару")) {
+            edtTxtDesc.setText("");
+            edtTxtDesc.setTextColor(Color.BLACK);
         }
     }
 }
