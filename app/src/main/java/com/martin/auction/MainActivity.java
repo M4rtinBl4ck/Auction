@@ -69,7 +69,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     public void onClickEdtBox(View v) {
-        if (edtTxtPrice.getText().toString().equals("@string/price"))
+        if (edtTxtPrice.getText().toString().equals("Введіть ціну"))
             edtTxtPrice.setText("");
     }
 }
