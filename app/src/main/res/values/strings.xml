@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Auction</string>
+    <string name="price">Введіть ціну</string>
+</resources>
