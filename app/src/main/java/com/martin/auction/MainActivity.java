@@ -3,6 +3,7 @@ package com.martin.auction;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.net.Uri;
 import android.provider.MediaStore;
 //import android.support.v7.app.AppCompatActivity;
@@ -33,6 +34,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         image = (ImageView) findViewById(R.id.imageView);
         loadButton = (Button) findViewById(R.id.button);
         edtTxtPrice = (EditText) findViewById(R.id.editTextPrice);
+        edtTxtDesc = (EditText) findViewById(R.id.editTextDescription);
 
         loadButton.setOnClickListener(this);
     }
@@ -69,7 +71,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     public void onClickEdtBox(View v) {
-        if (edtTxtPrice.getText().toString().equals("Введіть ціну"))
+        if (edtTxtPrice.getText().toString().equals("Ціна")) {
             edtTxtPrice.setText("");
+            edtTxtPrice.setTextColor(Color.BLACK);
+        }
+    }
+    public void onClickEdtDesc(View v) {
+        if (edtTxtPrice.getText().toString().equals("Введіть опис товару")) {
+            edtTxtPrice.setText("");
+            edtTxtPrice.setTextColor(Color.BLACK);
+        }
     }
 }
