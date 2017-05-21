@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -84,4 +85,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             edtTxtDesc.setTextColor(Color.BLACK);
         }
     } */
+
+    public void onImageClick (View v) {
+        Toast toast = Toast.makeText(getApplicationContext(), "Скористайтеся кнопкою 'Завантажити зображення'", Toast.LENGTH_SHORT);
+        toast.show();
+    }
 }
